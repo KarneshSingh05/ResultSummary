@@ -123,7 +123,7 @@ align-items: center;
     font-size: 30px;
     margin-top: -1px;
 }
-@media(max-width:375px) {
+@media(max-width:431px) {
    #maindiv{
     display: flex;
     flex-direction: column;
@@ -137,7 +137,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 270px;
+   
     border-radius: 0px 0px 30px 30px;
     height: 400px;
 
