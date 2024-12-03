@@ -1,0 +1,186 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+    justify-content: center;
+}
+
+#maindiv{
+    display: flex;
+    box-sizing: border-box;
+   
+    width: 40%;
+    border-radius: 20px;
+     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+
+
+    
+}
+#bluediv{
+    box-sizing: border-box;
+    height: 500px;
+    width:50%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;  
+    color: hsl(0, 0%, 100%) ; 
+   
+    background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+#result{
+    font-size:30px;
+   margin-top: 20px;
+}
+
+
+#formdiv{
+    position: relative;
+    box-sizing: border-box;
+    height: 500px;
+    width:50%;
+    border-radius:0px 20px 20px 0px;
+    padding:30px;
+    z-index: -1;
+    margin-left:-10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#circlediv{
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    text-align: center;
+    margin: 0px auto;
+    background: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+#circlediv>h1{
+    font-size: 50px;
+    padding-top: 1em;
+}
+#formdiv>div{
+   
+    height: 30px;
+    width: 220px;
+    align-items:center;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#formdiv>div>p>span{
+    margin-left: 80px;
+    color: black;
+}
+#continuebutton{
+    position: relative;
+    height: 40px;
+    width: 220px;
+    margin-left: 20px;
+    
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    
+}
+#maxpara{
+    width:230px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#heading{
+    position: relative;
+    align-items: center;
+}
+#parahund{
+  
+    margin-top:-2em;
+}
+#recdiv{
+background-color: hsla(0, 100%, 67%, 0.195);
+display: flex;
+align-items: center;
+}
+#memdiv{
+background-color: hsla(39, 100%, 56%, 0.185);
+display: flex;
+align-items: center;
+}
+#verdiv{
+background-color: hsla(166, 100%, 37%, 0.192) ;
+display: flex;
+align-items: center;
+}
+#visdiv{
+background-color:  hsla(241, 100%, 89%, 0.204);
+display: flex;
+align-items: center;
+}
+#sumpara{
+    font-size: 30px;
+    margin-top: -1px;
+}
+@media(max-width:375px) {
+   #maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+   }
+#bluediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 270px;
+    border-radius: 0px 0px 30px 30px;
+    height: 400px;
+
+}
+#formdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+  * {
+    margin: 0;
+  }
+  #heading{
+    margin-bottom: 40px;
+  }
+#result{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#sumpara{
+    margin-left: -200px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+   
+}
+#formdiv>div{
+    width: 100%;
+}
+#continuebutton{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 23px;
+}
+#maxpara{
+    width: 300px;
+   
+}
+h2{
+    margin-top: 40px;
+}
+  }
